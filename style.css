@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.herohold {
+    flex: 1;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    color: #f9faf8;
+    font-size: 24px;
+        
+}
+
+.header ul,
+.text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
