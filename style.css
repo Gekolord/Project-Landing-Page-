@@ -9,11 +9,16 @@ body {
     flex: 1;
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
     color: #f9faf8;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
         
 }
 
@@ -21,4 +26,21 @@ body {
 .text{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    display: inline-block;
+    margin-left: 16px
+}
+
+.herocont {
+    width: 850px;
+    display: flex;
+    flex-direction: column;
 }
