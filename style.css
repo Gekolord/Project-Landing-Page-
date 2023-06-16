@@ -1,3 +1,7 @@
+* {
+    font-family: tahoma;
+}
+
 body {
     display: flex;
     margin: 0;
@@ -19,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
         
 }
 
@@ -78,4 +83,71 @@ img  {
     flex: 1;
     margin: 0;
     word-wrap: break-word; 
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 0px;
+    padding: 8px;
+    width: 106px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.infohold {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rinfo {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.cards { 
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:0;
+}
+.cardimg {
+    width: 150px;
+    height: 150px;
+    border: 4px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-style: solid;
+}
+
+.cardtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(109, 103, 103);
 }
