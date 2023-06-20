@@ -2,6 +2,10 @@
     font-family: tahoma;
 }
 
+p {
+    margin: 0;
+}
+
 body {
     display: block;
     margin: 0;
@@ -182,5 +186,42 @@ img  {
     font-weight: bold;
     align-self: flex-end;
     margin-right: 20px;
+}
+
+.callhold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.callcont {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 7px;
+    width: 900px;
+    height: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px;
+
+}
+
+.calltext{
+    color: white;
+
+}
+
+.call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.callcont .signup{
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    align-self: center;
+    font-weight: bold;
 }
 
