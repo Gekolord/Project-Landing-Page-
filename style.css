@@ -111,6 +111,7 @@ img  {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .rinfo {
@@ -153,3 +154,33 @@ img  {
     text-align: center;
     color: rgb(109, 103, 103);
 }
+
+
+.quotehold {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quotenauth {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-family: serif;
+    margin: 0;   
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 20px;
+}
+
